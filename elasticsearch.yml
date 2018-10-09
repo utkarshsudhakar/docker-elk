@@ -1,0 +1,18 @@
+cluster.name: "docker-cluster"
+network.host: 0.0.0.0
+xpack.security.enabled: false
+
+discovery.zen.minimum_master_nodes: 1
+
+xpack.notification.email.account:
+  work:
+    profile: gmail
+    email_defaults:
+      from: sudhakar.utkarsha@gmail.com 
+    smtp:
+      auth: true
+      starttls.enable: true
+      host: smtp.gmail.com
+      port: 587
+      user: sudhakar.utkarsha@gmail.com
+      password: topcoder.1 
