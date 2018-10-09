@@ -8,11 +8,11 @@ xpack.notification.email.account:
   work:
     profile: gmail
     email_defaults:
-      from: sudhakar.utkarsha@gmail.com 
+      from: <email> 
     smtp:
       auth: true
       starttls.enable: true
       host: smtp.gmail.com
       port: 587
-      user: sudhakar.utkarsha@gmail.com
-      password: topcoder.1 
+      user: <email>
+      password: <pass>
